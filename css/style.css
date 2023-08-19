@@ -31,7 +31,7 @@ body{
 }   
 
 .box__text{
-    transition: 1s 4 s;
+    transition: 1s 4s;
 }
 .container{
     transition: 4s 0s;
