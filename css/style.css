@@ -1,0 +1,52 @@
+body{
+    background-color: #181e34;
+    color: #6016ab;
+}
+.box__text{
+    
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    padding-top: 127px;
+    
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background: #6016ab;
+    border-radius: 20px;
+    position: absolute;
+    left: 807px;
+    top: 125px;
+}
+.container{
+    width: 0px;
+    height: 20px;
+    background: #cfaeef;
+    border-radius: 20px;
+    position: absolute;
+    left: -269px;
+    top: -64px;
+}   
+
+.box__text{
+    transition: 1s 4 s;
+}
+.container{
+    transition: 4s 0s;
+    
+    
+}
+
+.box:hover .box__text {
+    color: aliceblue;
+}
+.box:hover .container {
+    background: #cfaeef;
+    width: 900px;
+}
+
+
+
+
